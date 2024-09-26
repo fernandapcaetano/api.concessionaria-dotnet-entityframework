@@ -51,6 +51,8 @@ namespace Concessionaria.Models;
 
         public List<AditionalFeature> AditionalFeatures { get; set; } = new List<AditionalFeature>();
 
+    public Boolean Available { get; set; } = true;
         public Sale? Sale { get; set; }
+
 
     }
